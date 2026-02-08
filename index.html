@@ -1,78 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Our First Valentine</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Great+Vibes&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>For Nele Viktoria Görlitz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, #ffe6ee, #fff);
+  font-family: 'Playfair Display', serif;
+  color: #3a1f2d;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+  padding: 80px 25px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.4rem;
+  color: #e75480;
+}
+
+h1 span {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.letter, .hidden {
+  background: rgba(255,255,255,0.8);
+  border-radius: 20px;
+  padding: 35px;
+  line-height: 1.9;
+  box-shadow: 0 0 30px rgba(231,84,128,0.2);
+  margin-bottom: 50px;
+}
+
+.poem {
+  font-style: italic;
+  color: #6b2b44;
+  line-height: 2;
+  margin-top: 60px;
+}
+
+button {
+  background: #e75480;
+  border: none;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(231,84,128,0.3);
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+  margin-top: 40px;
+}
+
+.signature {
+  margin-top: 70px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  color: #e75480;
+}
+
+/* Falling petals */
+.petal {
+  position: fixed;
+  top: -10%;
+  font-size: 1.5rem;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh) rotate(360deg);
+  }
+}
+
+/* Floating roses */
+.rose {
+  position: fixed;
+  bottom: -10%;
+  font-size: 2rem;
+  animation: floatUp linear infinite;
+  opacity: 0.7;
+}
+
+@keyframes floatUp {
+  to {
+    transform: translateY(-120vh);
+  }
+}
+</style>
 </head>
+
 <body>
 
-  <div class="container">
-    <h1>To My Forever Valentine</h1>
-    <h2>Nele Viktoria Görlitz</h2>
+<!-- Music -->
+<audio autoplay loop>
+  <source src="https://cdn.pixabay.com/audio/2022/03/15/audio_6c3d2c9c8c.mp3" type="audio/mpeg">
+</audio>
 
-    <div class="letter">
-      <p>
-        My love,<br><br>
+<div class="container">
+  <h1>Nele Viktoria Görlitz <span>🌸</span></h1>
+  <h2>My love. My choice. My forever.</h2>
 
-        This is our first Valentine’s Day together, and I wanted to give you
-        something that lasts longer than flowers, longer than words spoken once
-        and forgotten. I wanted to give you something that stays — just like my
-        love for you.
-        <br><br>
+  <div class="letter">
+    <p>
+      My love,<br><br>
+      This is our first Valentine’s Day, and I wanted to give you something
+      that could hold my heart when words alone aren’t enough.
+      Something gentle. Something lasting.
+      Something that reminds you — every time you return — how deeply you are loved.
+    </p>
 
-        From the moment you entered my life, something in me became calm.
-        Loving you feels natural, effortless, like my heart finally recognized
-        where it belongs. You are not just the woman I love — you are my wife,
-        my choice, my forever.
-        <br><br>
+    <p>
+      Loving you feels like peace wrapped in warmth.
+      You are the place my heart rests when the world feels heavy.
+      You make love feel safe, steady, and real —
+      the kind of love that doesn’t fade when things get quiet.
+    </p>
 
-        With you, love feels warm and safe. I feel seen, understood, and deeply
-        connected. Every version of the future I imagine has you in it —
-        laughing with me, growing with me, walking beside me.
-        <br><br>
-
-        This is only our first Valentine’s Day, but I promise you this:
-        I will choose you in every season, in every version of life,
-        again and again.
-      </p>
-    </div>
-
-    <div class="poem">
-      <h3>A Poem for You</h3>
-      <p>
-        If the world were quiet,<br>
-        and only one name remained,<br>
-        it would be yours —<br>
-        written softly in my heart.<br><br>
-
-        You are the reason love feels gentle,<br>
-        the reason forever feels possible.<br>
-        In a world full of faces,<br>
-        you are the only one I see.<br><br>
-
-        I don’t love you loudly for the world —<br>
-        I love you deeply, faithfully,<br>
-        in the way that stays,<br>
-        in the way that chooses.<br><br>
-
-        If love had a shape,<br>
-        it would look like you.<br>
-        If forever had a name,<br>
-        it would be us.
-      </p>
-    </div>
-
-    <div class="closing">
-      <p>
-        Happy first Valentine’s Day, my love.<br>
-        Always yours,
-      </p>
-      <span>— Taha Elnaeli</span>
-    </div>
+    <p>
+      I choose you in ways that go beyond moments.
+      I choose you in patience, in honesty, in commitment.
+      I choose you on easy days and on difficult ones,
+      because loving you isn’t a feeling that comes and goes —
+      it’s a decision I make gladly, every single day.
+    </p>
   </div>
+
+  <button onclick="document.getElementById('hidden').style.display='block'">
+    💌 Read My Heart
+  </button>
+
+  <div id="hidden" class="hidden">
+    <p>
+      If you ever doubt my love, come back here.<br><br>
+      Remember that you are wanted without question,
+      chosen without hesitation,
+      and loved in a way that is steady, loyal, and forever.
+      You are not replaceable.
+      You are not temporary.
+      You are my heart’s home.
+    </p>
+  </div>
+
+  <div class="poem">
+    <p>
+      You are the poem my heart writes without trying,<br>
+      the verse that flows even in silence.<br>
+      In a world full of voices,<br>
+      you are the one my soul listens to.
+    </p>
+
+    <p>
+      You are loved in the quiet moments,<br>
+      in the spaces between words,<br>
+      in the way my heart reaches for you<br>
+      even when you are not near.
+    </p>
+
+    <p>
+      If forever ever feels uncertain,<br>
+      look at how I love you —<br>
+      gently, deeply, without conditions.<br>
+      That is how long I plan to stay.
+    </p>
+
+    <p>
+      In every lifetime, in every version of me,<br>
+      I would still find you,<br>
+      still choose you,<br>
+      still call you mine.
+    </p>
+  </div>
+
+  <div class="signature">
+    Forever yours,<br>
+    Taha Elnaeli
+  </div>
+</div>
+
+<script>
+// petals
+for(let i=0;i<20;i++){
+  let p=document.createElement("div");
+  p.className="petal";
+  p.innerHTML="🌸";
+  p.style.left=Math.random()*100+"vw";
+  p.style.animationDuration=5+Math.random()*5+"s";
+  document.body.appendChild(p);
+}
+
+// roses
+["🌹","🌷"].forEach((r)=>{
+  for(let i=0;i<6;i++){
+    let rose=document.createElement("div");
+    rose.className="rose";
+    rose.innerHTML=r;
+    rose.style.left=Math.random()*100+"vw";
+    rose.style.animationDuration=8+Math.random()*6+"s";
+    document.body.appendChild(rose);
+  }
+});
+</script>
 
 </body>
 </html>
